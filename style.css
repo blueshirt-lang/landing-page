@@ -60,26 +60,32 @@ body {
 .white-background {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
-.white-background.header {
+.white-background .header {
 font-size: 36px;
 color: #1f2937;
 font-weight: 900;
+margin: 0;
+padding: 70px;
 }
 
 .images {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin: 0;
-    padding: 50px 200px;
+    padding: 0 200px 50px;
 }
 
-.image {
+.white-background img {
     height: 100%;
     width: 200px;
+}
+
+.white-background p {
+    display: flex;
+    justify-content: center;
 }
 
 button {
