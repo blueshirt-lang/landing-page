@@ -88,13 +88,44 @@ padding: 70px;
     justify-content: center;
 }
 
-button {
+.hero-content button {
     border: none;
     border-radius: 8px;
     background-color: #3882f6;
     color: white;
     padding: 8px 24px;
 }
+
+ /*comment section*/
+ .comment-section {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    margin: 0;
+    padding: 150px 400px;
+ }
+
+ .comment {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+ }
+
+.commenter {
+    text-align: end;
+    font-weight: 900;
+}
+
+/*call for action part*/
+.call {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border-color: white;
+    border: 20px;
+}
+
+
 
 ul {
     display: flex;
