@@ -88,8 +88,8 @@ padding: 70px;
     justify-content: center;
 }
 
-.hero-content button {
-    border: none;
+.hero-content button,
+.call button {
     border-radius: 8px;
     background-color: #3882f6;
     color: white;
@@ -106,7 +106,7 @@ padding: 70px;
 
  .comment {
     font-size: 36px;
-    font-weight: 300;
+    font-weight: 100;
     font-style: italic;
     margin: 0;
     padding: 0;
@@ -115,17 +115,36 @@ padding: 70px;
 .commenter {
     text-align: end;
     font-weight: 900;
+    font-size: 25px;
 }
 
 /*call for action part*/
 .call {
+    display: flex;
+    justify-content: space-between;
     background-color: #3882f6;
-    border-radius: 8px;
-    border-color: white;
-    border: 20px;
+    border: 100px solid white;
+    border-radius: 20px;
+    padding: 80px 350px;
+    color: white;
 }
 
+.bigger {
+    font-size: 25px;
+    font-weight: 900;
+    margin: 0;
+}
 
+.smaller {
+    margin: 0;
+    color: #e5e7eb;
+}
+
+.call button {
+    border: 3px solid white;
+    font-size: 20px;
+    font-weight: 900;
+}
 
 ul {
     display: flex;
