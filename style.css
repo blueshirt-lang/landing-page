@@ -72,12 +72,13 @@ font-weight: 900;
 .images {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 50px 200px;
 }
 
 .image {
-    height: auto;
+    height: 100%;
     width: 200px;
 }
 
